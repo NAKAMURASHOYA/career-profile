@@ -1,0 +1,30 @@
+skills:
+  programming_languages:
+    - name: Python
+      years: 3
+      level: Intermediate
+    - name: JavaScript
+      years: 2
+      level: Beginner
+  frameworks:
+    - name: React
+      years: 1
+      level: Beginner
+  databases:
+    - name: PostgreSQL
+      years: 2
+      level: Intermediate
+  personal_skills:
+    - Communication
+    - Problem Solving
+
+experience:
+  - project_name: 顧客管理システム開発
+    start: 2021-04
+    end: 2022-03
+    role: フロントエンドエンジニア
+    summary: 顧客管理システムのUI開発、要件整理、テスト設計
+    languages: [JavaScript]
+    frameworks: [React]
+    databases: [MongoDB]
+    phases: [要件定義, 実装, テスト]
