@@ -12,6 +12,7 @@ experience:
     databases: [PostgreSQL, Redis]
     tools: [Git, Docker, VS Code]
     cloud_services: [AWS, Vercel]
+    os: [mac]
     phases: [要件定義, 基本設計, 詳細設計, 実装, 単体テスト, 結合テスト]
     
   - project_name: ECサイト構築
@@ -24,4 +25,5 @@ experience:
     databases: [MySQL, MongoDB]
     tools: [GitHub, Jenkins, Postman]
     cloud_services: [AWS, AWS Lambda, S3]
+    os: [linux]
     phases: [基本設計, 詳細設計, 実装, 総合テスト, 運用]
