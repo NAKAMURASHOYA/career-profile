@@ -1,22 +1,5 @@
-skills:
-  programming_languages:
-    - name: Python
-      years: 3
-      level: Intermediate
-    - name: JavaScript
-      years: 2
-      level: Beginner
-  frameworks:
-    - name: React
-      years: 1
-      level: Beginner
-  databases:
-    - name: PostgreSQL
-      years: 2
-      level: Intermediate
-  personal_skills:
-    - Communication
-    - Problem Solving
+# 経歴情報のみを記載
+# スキル情報は経歴から自動算出されます
 
 experience:
   - project_name: 顧客管理システム開発
@@ -24,7 +7,21 @@ experience:
     end: 2022-03
     role: フロントエンドエンジニア
     summary: 顧客管理システムのUI開発、要件整理、テスト設計
-    languages: [JavaScript]
-    frameworks: [React]
-    databases: [MongoDB]
-    phases: [要件定義, 実装, テスト]
+    languages: [JavaScript, TypeScript]
+    frameworks: [React, Next.js]
+    databases: [PostgreSQL, Redis]
+    tools: [Git, Docker, VS Code]
+    cloud_services: [AWS, Vercel]
+    phases: [要件定義, 基本設計, 詳細設計, 実装, 単体テスト, 結合テスト]
+    
+  - project_name: ECサイト構築
+    start: 2022-04
+    end: 2023-03
+    role: フルスタックエンジニア
+    summary: ECサイトのフロントエンド・バックエンド開発
+    languages: [Python, JavaScript]
+    frameworks: [Django, React]
+    databases: [MySQL, MongoDB]
+    tools: [GitHub, Jenkins, Postman]
+    cloud_services: [AWS, AWS Lambda, S3]
+    phases: [基本設計, 詳細設計, 実装, 総合テスト, 運用]
